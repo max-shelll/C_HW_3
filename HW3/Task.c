@@ -1,4 +1,4 @@
-#include <stdio.h>
+п»ї#include <stdio.h>
 #include <locale.h>
 #include <math.h>
 
@@ -10,14 +10,14 @@ int main()
 	float square;
 	float volume;
 
-	printf("Введите длину ребра тетраэдры: ");
+	printf("Р’РІРµРґРёС‚Рµ РґР»РёРЅСѓ СЂРµР±СЂР° С‚РµС‚СЂР°СЌРґСЂС‹: ");
 	scanf("%f", &s);
 
 	square = sqrt(3) * pow(s, 2);
 	volume = pow(s, 3) / (6 * sqrt(2));
 
-	printf("Площадь тетраэдры: %.2f\n", square);
-	printf("Объем тетраэдры: %.2f\n", volume);
+	printf("РџР»РѕС‰Р°РґСЊ С‚РµС‚СЂР°СЌРґСЂС‹: %.2f\n", square);
+	printf("РћР±СЉРµРј С‚РµС‚СЂР°СЌРґСЂС‹: %.2f\n", volume);
 
 	return 0;
 }
